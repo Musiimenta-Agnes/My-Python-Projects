@@ -9,12 +9,12 @@
 
 
 # Example:
-x = True
-y = False
+# x = True
+# y = False
 
-print(x and y) # False, this is because x is true and y is false and the 'and' condition implies that both are true.
-print(x or y) # True, This is because x is true and the 'or' operator implies that atleast one of them is true
-print(not x) # FFalse, This is beause x is and the 'not' operator implies the reverse of the condition.
+# print(x and y) # False, this is because x is true and y is false and the 'and' condition implies that both are true.
+# print(x or y) # True, This is because x is true and the 'or' operator implies that atleast one of them is true
+# print(not x) # FFalse, This is beause x is and the 'not' operator implies the reverse of the condition.
 
 
 #Practical Example
@@ -33,6 +33,8 @@ if age>=18 and is_member:
     print('You are welcome to the VIP section!')
 elif age>=18 and not is_member:
     print('Please you dont quarify to be in the VIP secton because you are not a clan member')
+elif age <18 and is_member:
+    print(f"Please you must be 18 years and above to qualify")
 else:
     print('Sorry, you must be 18 years and above and also a clan member to qualify for the VIP section')
 

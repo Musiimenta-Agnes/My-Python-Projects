@@ -14,9 +14,9 @@ else:
 
 # Example 2
 
-mark = 90
-if 45<=mark>=100:
-    print(f"A")
-else:
-    print('False')
+# mark = 90
+# if 45<=mark<=100:
+#     print(f"A")
+# else:
+#     print('False')
 
