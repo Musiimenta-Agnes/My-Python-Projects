@@ -3,7 +3,7 @@
 # This is an expressionthat determins the range/ order in which the operation is done.
 # Operators with the highr precedence are always executed firt.
 
-result = 3*4+5
+# result = 3*4+5
 # ie 
 #BODMAS
 result = 3*(4+5)
