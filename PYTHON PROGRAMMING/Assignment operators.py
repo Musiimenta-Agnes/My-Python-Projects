@@ -6,15 +6,11 @@
 
 mouse = 50000
 laptop = 300000
-
-product_prices = [50000, 300000,]
+sum = 0
+product_prices = [mouse, laptop]
 for price in product_prices:
-
- price = mouse + laptop 
-print(f"The total sum of the products is {price:,}")
-
-
-
+    sum += price
+print(f"The total sum of the products is {sum:,}")
 
 #(The final value is always got when the print is pushed to the edge.)
 

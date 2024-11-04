@@ -1,8 +1,8 @@
 
 # OPERATOR PRECEDENCE.
 # This is an expressionthat determins the range/ order in which the operation is done.
-# Operators with the highr precedence are always executed firt.
-
+# Operators with the higher precedence(Numbers with powers.) are always executed first.
+# Numbers with powers are are executed first before using them anywhere.
 # result = 3*4+5
 # ie 
 #BODMAS
